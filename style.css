@@ -1,5 +1,5 @@
 body{
-background-image: url("images/background.jpg");
+background-image: url("images/background2.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
 
@@ -89,7 +89,7 @@ src:url(MarvelRegular-Dj83.ttf);
 @media screen and (max-width:668px){
 	
 body{
-background-image: url("images/background.jpg");
+background-image: url("images/background2.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
 
