@@ -1,170 +1,170 @@
 body{
-background-image: url("images/background2.png");
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-}
-.btn{
-    color:rgb(255, 255, 255);
-    background: #ee171f;
-    padding:20px 20px;
-    font-size:45px;
-    text-decoration:none;
-    text-transform:uppercase;
-	border-radius: 0px;
-	box-shadow: 0px 0px 30px #ffffff;
-    font-family: Marvel;
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+    .btn{
+        color:rgb(255, 255, 255);
+        background: #ee171f;
+        padding:20px 20px;
+        font-size:45px;
+        text-decoration:none;
+        text-transform:uppercase;
+        border-radius: 0px;
+        box-shadow: 0px 0px 30px #ffffff;
+        font-family: Marvel;
+        border-radius: 8px;
+        }
+        
+    .btn:hover{
+        
+        border:none;
+        background:#ffffff;
+        padding:20px 20px;
+        color:rgb(0, 0, 0);
+        
     }
     
-.btn:hover{
+    #heder{
+        background-color: #ffffff;
+        padding: 30px;
+        border: 5px solid #c03737;
+        border-radius: 20px;
     
-    border:none;
-    background:#ffffff;
-    padding:20px 20px;
-    color:rgb(0, 0, 0);
+    }
+    #title{
+        font-size: 55px;
+        color: #ffffff;
+        letter-spacing: 5px;
+        text-transform:uppercase;
+        font-family: Marvel;
+    }
     
-}
-
-#heder{
-    background-color: #ffffff;
-	padding: 30px;
-	border: 5px solid #c03737;
-	border-radius: 20px;
-    float: right;
-
-}
-#title{
-    font-size: 55px;
-    color: #ffffff;
-    letter-spacing: 5px;
-    text-transform:uppercase;
-    font-family: Marvel;
-}
-
-#to_title1{
-
-background-color: #ee171f;
-box-shadow: 0px 0px 30px #ffffff;
-text-align: center;
-width: 500px;
-height: 50px;
-
-}
-#to_title2{
-
+    #to_title1{
+    
     background-color: #ee171f;
     box-shadow: 0px 0px 30px #ffffff;
     text-align: center;
     width: 500px;
-    height: 60px;
+    height: 50px;
     
     }
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-.zoom{
-    overflow: hidden;
-    padding: 0;
-}
-.zoom img {
-    transition-duration: 0.2s;
-    margin: 0 auto;
-    display: block;
-}
-.zoom img:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    z-index: 0;
-}
-
-@font-face{
-
-font-family: Marvel;
-src:url(MarvelRegular-Dj83.ttf);
-
-}
-@media screen and (max-width:668px){
-	
-body{
-background-image: url("images/background2.png");
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-}
-.btn{
-    color:rgb(255, 255, 255);
-    background: #ee171f;
-    padding:10px 10px;
-    font-size:25px;
-    text-decoration:none;
-    text-transform:uppercase;
-	border-radius: 0px;
-	box-shadow: 0px 0px 15px #ffffff;
-    font-family: Marvel;
+    #to_title2{
+    
+        background-color: #ee171f;
+        box-shadow: 0px 0px 30px #ffffff;
+        text-align: center;
+        width: 500px;
+        height: 60px;
+        
+        }
+    
+    ::-webkit-scrollbar {
+        display: none;
     }
     
-.btn:hover{
+    .zoom{
+        overflow: hidden;
+        padding: 0;
+    }
+    .zoom img {
+        transition-duration: 0.2s;
+        margin: 0 auto;
+        display: block;
+    }
+    .zoom img:hover {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        z-index: 0;
+    }
     
-    border:none;
-    background:#ffffff;
-    padding:10px 10px;
-    color:rgb(0, 0, 0);
+    @font-face{
     
-}
-
-#heder{
-    background-color: #ffffff;
-	padding: 15x;
-	border: 2px solid #c03737;
-	border-radius: 10px;
-    float: right;
-
-}
-#title{
-    font-size: 25px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-transform:uppercase;
     font-family: Marvel;
-}
-
-#to_title1{
-
-background-color: #ee171f;
-box-shadow: 0px 0px 15px #ffffff;
-text-align: center;
-width: 250px;
-height: 25px;
-
-}
-#to_title2{
-
+    src:url(MarvelRegular-Dj83.ttf);
+    
+    }
+    @media screen and (max-width:910px){
+        
+    body{
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+    .btn{
+        color:rgb(255, 255, 255);
+        background: #ee171f;
+        padding:10px 10px;
+        font-size:25px;
+        text-decoration:none;
+        text-transform:uppercase;
+        border-radius: 0px;
+        box-shadow: 0px 0px 15px #ffffff;
+        font-family: Marvel;
+        }
+        
+    .btn:hover{
+        
+        border:none;
+        background:#ffffff;
+        padding:10px 10px;
+        color:rgb(0, 0, 0);
+        
+    }
+    
+    #heder{
+        background-color: #ffffff;
+        padding: 15x;
+        border: 2px solid #c03737;
+        border-radius: 10px;
+        float: right;
+    
+    }
+    #title{
+        font-size: 25px;
+        color: #ffffff;
+        letter-spacing: 2px;
+        text-transform:uppercase;
+        font-family: Marvel;
+    }
+    
+    #to_title1{
+    
     background-color: #ee171f;
     box-shadow: 0px 0px 15px #ffffff;
     text-align: center;
     width: 250px;
-    height: 30px;
+    height: 25px;
     
     }
-
+    #to_title2{
+    
+        background-color: #ee171f;
+        box-shadow: 0px 0px 15px #ffffff;
+        text-align: center;
+        width: 250px;
+        height: 30px;
+        
+        }
+    
 #img{
 width: 325px;
 height: 100px;
-	}
-	
-	
-
+        }
+        
 #av{
 
-    width: 85px;
-    height: 135px;
-
+    width: 135px;
+    height: 185px;
+    border-spacing: 20px 35px;
 }
 #pdf_size{
-    width: 300px;
+    width: 300px;;
     height: 475px;
+
+
 }
 }
