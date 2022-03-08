@@ -25,13 +25,14 @@ body{
         color:rgb(0, 0, 0);
         
     }
-    
-    #heder{
-        background-color: #ffffff;
-        padding: 30px;
-        border: 5px solid #c03737;
-        border-radius: 20px;
-    
+    #header{
+    position: absolute; 
+	margin: auto;  
+	top: 30%;  
+	right: 0;  
+	bottom: 0;  
+	left: 0;
+          
     }
     #title{
         font-size: 55px;
@@ -157,11 +158,12 @@ height: 100px;
         
 #av{
 
-    width: 85px;
-    height: 135px;
+    width: 135px;
+    height: 185px;
+    border-spacing: 20px 35px;
 }
 #pdf_size{
-    width: 300px;
+    width: 300px;;
     height: 475px;
 
 
