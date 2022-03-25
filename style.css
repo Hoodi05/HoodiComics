@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/background2.png");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -14,7 +14,6 @@ body{
         border-radius: 0px;
         box-shadow: 0px 0px 30px #ffffff;
         font-family: Marvel;
-        border-radius: 8px;
         }
         
     .btn:hover{
@@ -25,14 +24,14 @@ body{
         color:rgb(0, 0, 0);
         
     }
-    #header{
-    position: absolute; 
-	margin: auto;  
-	top: 30%;  
-	right: 0;  
-	bottom: 0;  
-	left: 0;
-          
+    
+    #heder{
+        background-color: #ffffff;
+        padding: 30px;
+        border: 5px solid #c03737;
+        border-radius: 20px;
+        float: right;
+    
     }
     #title{
         font-size: 55px;
@@ -57,18 +56,23 @@ body{
         box-shadow: 0px 0px 30px #ffffff;
         text-align: center;
         width: 500px;
-        height: 63px;
+        height: 60px;
         
         }
-    #to_title3{
+
+    #stopka{
+        position: sticky;
+        position: relative;
+		bottom:0;
+		height:26px;
+        font-size: 23px;
+		background:#ff0000;
+        color: white;
+        font-family: Marvel;
+        text-transform:uppercase;
+        letter-spacing: 5px;
+    }
     
-        background-color: #ee171f;
-        box-shadow: 0px 0px 30px #ffffff;
-        text-align: center;
-        width: 500px;
-        height: 50px;
-            
-        }
     ::-webkit-scrollbar {
         display: none;
     }
@@ -98,7 +102,7 @@ body{
     @media screen and (max-width:910px){
         
     body{
-    background-image: url("images/background2.png");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -138,7 +142,6 @@ body{
         letter-spacing: 2px;
         text-transform:uppercase;
         font-family: Marvel;
-        text-align: center;
     }
     
     #to_title1{
@@ -156,18 +159,10 @@ body{
         box-shadow: 0px 0px 15px #ffffff;
         text-align: center;
         width: 250px;
-        height: 25px;
+        height: 30px;
         
         }
-    #to_title3{
     
-        background-color: #ee171f;
-         box-shadow: 0px 0px 30px #ffffff;
-         text-align: center;
-         width: 500px;
-         height: 50px;
-                
-            }
 #img{
 width: 325px;
 height: 100px;
@@ -175,14 +170,20 @@ height: 100px;
         
 #av{
 
-    width: 85px;
-    height: 135px;
+    width: 135px;
+    height: 185px;
     border-spacing: 20px 35px;
 }
 #pdf_size{
-    width: 300px;
+    width: 300px;;
     height: 475px;
 
 
 }
+.iframe{
+
+    width: 475px;
+    height: 300px;
+
 }
+    }
