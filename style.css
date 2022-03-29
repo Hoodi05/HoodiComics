@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/background.jpg");
+    background-image: url("images/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -14,6 +14,7 @@ body{
         border-radius: 0px;
         box-shadow: 0px 0px 30px #ffffff;
         font-family: Marvel;
+        border-radius: 8px;
         }
         
     .btn:hover{
@@ -24,14 +25,14 @@ body{
         color:rgb(0, 0, 0);
         
     }
-    
-    #heder{
-        background-color: #ffffff;
-        padding: 30px;
-        border: 5px solid #c03737;
-        border-radius: 20px;
-        float: right;
-    
+    #header{
+    position: relative; 
+	margin: auto;  
+	top: 30%;  
+	right: 0;  
+	bottom: 0;  
+	left: 0;
+          
     }
     #title{
         font-size: 55px;
@@ -56,23 +57,42 @@ body{
         box-shadow: 0px 0px 30px #ffffff;
         text-align: center;
         width: 500px;
-        height: 60px;
+        height: 63px;
         
         }
-
+    #to_title3{
+    
+        background-color: #ee171f;
+        box-shadow: 0px 0px 30px #ffffff;
+        text-align: center;
+        width: 500px;
+        height: 50px;
+    }
     #stopka{
-        position: sticky;
-        position: relative;
-		bottom:0;
-		height:26px;
+        position: static;
+        height:26px;
         font-size: 23px;
-		background:#ff0000;
+        background:#ff0000;
         color: white;
         font-family: Marvel;
         text-transform:uppercase;
         letter-spacing: 5px;
+        margin: auto;
     }
-    
+    #napisy{
+
+        color: white;
+
+
+    }
+    #ramka{
+        background-color: #ee171f;
+        padding:20px 20px;
+        width: 1500px;
+        box-shadow: 0px 0px 30px #ffffff;
+        border-radius: 8px;
+       
+        }
     ::-webkit-scrollbar {
         display: none;
     }
@@ -102,7 +122,7 @@ body{
     @media screen and (max-width:910px){
         
     body{
-    background-image: url("images/background.jpg");
+    background-image: url("images/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -142,6 +162,7 @@ body{
         letter-spacing: 2px;
         text-transform:uppercase;
         font-family: Marvel;
+        text-align: center;
     }
     
     #to_title1{
@@ -159,31 +180,30 @@ body{
         box-shadow: 0px 0px 15px #ffffff;
         text-align: center;
         width: 250px;
-        height: 30px;
+        height: 25px;
         
         }
+    #to_title3{
     
+        background-color: #ee171f;
+         box-shadow: 0px 0px 30px #ffffff;
+         text-align: center;
+         width: 500px;
+         height: 50px;
+                
+            }
 #img{
 width: 325px;
 height: 100px;
         }
         
 #av{
-
-    width: 135px;
-    height: 185px;
+    width: 55px;
+    height: 105px;
     border-spacing: 20px 35px;
 }
 #pdf_size{
-    width: 300px;;
+    width: 300px;
     height: 475px;
-
-
 }
-.iframe{
-
-    width: 475px;
-    height: 300px;
-
 }
-    }
