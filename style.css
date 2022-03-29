@@ -26,7 +26,7 @@ body{
         
     }
     #header{
-    position: relative; 
+    position: absolute; 
 	margin: auto;  
 	top: 30%;  
 	right: 0;  
@@ -69,7 +69,7 @@ body{
         height: 50px;
     }
     #stopka{
-        position: static;
+        position: relative;
         height:26px;
         font-size: 23px;
         background:#ff0000;
@@ -77,13 +77,11 @@ body{
         font-family: Marvel;
         text-transform:uppercase;
         letter-spacing: 5px;
-        margin: auto;
+        margin-bottom: 100%;
+        clear: both;
     }
     #napisy{
-
         color: white;
-
-
     }
     #ramka{
         background-color: #ee171f;
@@ -120,6 +118,7 @@ body{
     
     }
     @media screen and (max-width:910px){
+
         
     body{
     background-image: url("images/background2.png");
